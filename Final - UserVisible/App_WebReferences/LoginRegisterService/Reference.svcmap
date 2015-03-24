@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a61c5998-740c-489a-b509-65a6dd909b91" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:21162/LoginRegisterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoginRegisterService.xsd" MetadataType="Schema" ID="6a61b3fa-d564-420a-a76e-5b92c71506fa" SourceId="1" SourceUrl="http://localhost:21162/LoginRegisterService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LoginRegisterService.wsdl" MetadataType="Wsdl" ID="159d609d-ae8e-4178-95e0-f970292e1fd3" SourceId="1" SourceUrl="http://localhost:21162/LoginRegisterService.svc?wsdl" />
+    <MetadataFile FileName="LoginRegisterService1.xsd" MetadataType="Schema" ID="d7012625-4767-421f-a2d9-d14ad9c3f2ec" SourceId="1" SourceUrl="http://localhost:21162/LoginRegisterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LoginRegisterService.disco" MetadataType="Disco" ID="6538226c-c456-45cf-8f74-487e69939297" SourceId="1" SourceUrl="http://localhost:21162/LoginRegisterService.svc?disco" />
+    <MetadataFile FileName="LoginRegisterService2.xsd" MetadataType="Schema" ID="eefa8c77-4c50-4455-ae56-128ab76534eb" SourceId="1" SourceUrl="http://localhost:21162/LoginRegisterService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
